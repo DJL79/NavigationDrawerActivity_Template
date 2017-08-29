@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_findus"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Find Us" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_jobs"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Jobs" />
+    </group>
+
+    <item android:title="Find us on Social Media">
+        <menu>
+
+            <item
+                android:id="@+id/nav_location"
+                android:icon="@drawable/instagram"
+                android:title="Where are we today?" />
+
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/instagram"
+                android:title="Instagram" />
+            <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/twittericon_small"
+            android:title="Twitter" />
+
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook_icon_small"
+                android:title="Facebook" />
+        </menu>
+    </item>
+
+</menu>
